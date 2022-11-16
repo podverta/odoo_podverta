@@ -40,4 +40,17 @@ class SaleOrder(models.Model):
 
 
 
+class PodvertaModel(models.Model):
+    _name = "podverta.model"
+    _description = "Just model for tests"
+
+    name = fields.Char(string='name', required=True, default='Unknown')
+    description = fields.Text(string='Description', required=False)
+    documents = fields.Binary(string='File', required=False)
+    document_name = fields.Char(string="File Upload")
+    file_ids = fields.Many2many('ir.attachment', string="file_name", copy=False)
+
+
+
+
 

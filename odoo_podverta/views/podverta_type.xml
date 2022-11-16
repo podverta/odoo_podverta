@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <record id="podverta_view_form_type" model="ir.ui.view">
+        <field name="name">podverta.model.form</field>
+        <field name="model">podverta.model</field>
+        <field name="arch" type="xml">
+            <form string="Test_estate_type">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+
+    <record id="podverta_view_form_tree" model="ir.ui.view">
+        <field name="name">podverta.model.tree</field>
+        <field name="model">podverta.model</field>
+        <field name="arch" type="xml">
+            <tree string="Type_estate">
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="podverta_view_action"
+            model="ir.actions.act_window">
+        <field name="name">Action</field>
+        <field name="res_model">podverta.model</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+</odoo>

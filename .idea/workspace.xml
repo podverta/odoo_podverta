@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="41d91862-124f-4bb7-a168-2c48b0b8eb33" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/odoo_podverta/views/podverta_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo_podverta/views/podverta_type.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo_podverta/views/podverta_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo_podverta/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/odoo_podverta/__manifest__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo_podverta/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/odoo_podverta/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo_podverta/models/sale_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/odoo_podverta/models/podverta_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo_podverta/security/ir.model.access.csv" beforeDir="false" afterPath="$PROJECT_DIR$/odoo_podverta/security/ir.model.access.csv" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/odoo_podverta/__manifest__.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="2HdSV5u71544vpMC5djrZGR9S0M" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/odoo_podverta/views" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python-projects\odoo-my-addons\custom\Odoo_podverta\odoo_podverta\views" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41d91862-124f-4bb7-a168-2c48b0b8eb33" name="Changes" comment="" />
+      <created>1668613488891</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668613488891</updated>
+      <workItem from="1668613491395" duration="7106000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

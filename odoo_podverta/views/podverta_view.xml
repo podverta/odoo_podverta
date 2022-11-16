@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <record id="first_view_form" model="ir.ui.view">
+        <field name="name">podverta.model.form</field>
+        <field name="model">podverta.model</field>
+        <field name="arch" type="xml">
+            <form string="Test">
+                <sheet>
+                    <group>
+                        <h1>
+                            <field name="name"/>
+                        </h1>
+                        <group>
+                            <field name="description"/>
+                        </group>
+                        <notebook>
+                            <page string="File Upload">
+                                <group>
+                                    <field name="documents"
+                                           filename="document_name"/>
+                                    <field name="document_name" invisible="1"/>
+                                </group>
+                                <group>
+                                    <field name="file_ids" widget="many2many_binary"/>
+                                </group>
+                            </page>
+                        </notebook>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+
+    <record id="podverta_view_tree" model="ir.ui.view">
+        <field name="name">podverta.model.tree</field>
+        <field name="model">podverta.model</field>
+        <field name="arch" type="xml">
+            <tree string="Tree">
+                <field name="name"/>
+                <field name="documents"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="test_model_action" model="ir.actions.act_window">
+        <field name="name">Estate</field>
+        <field name="res_model">podverta.model</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+</odoo>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="podverta_menu_root" name="Podverta">
+        <menuitem id="podverta_menu_form" name="Form">
+            <menuitem id="podverta_menu_action" action="podverta_view_action"/>
+        </menuitem>
+    </menuitem>
+</odoo>
